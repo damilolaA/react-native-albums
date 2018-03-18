@@ -1,12 +1,13 @@
 // index.andriod.js -- place code in here for Andriod
 
 import React from 'react';
-import { Text, AppRegistry } from 'react-native';
+import { AppRegistry } from 'react-native';
+import Header from './src/components/header';
 
 const App = () => {
 
 	return (
-		<Text>Hello World</Text>
+		<Header />
 	);
 };
 
